@@ -1,11 +1,14 @@
 {
   "name": "@datasaur-ai/utils",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Utility functions to speed up development",
   "author": {
     "name": "Datasaur.ai",
     "email": "dev@datasaur.ai",
     "url": "https://datasaur.ai"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "test": "jest",
@@ -15,6 +18,5 @@
   },
   "files": [
     "lib"
-  ],
-  "devDependencies": {}
+  ]
 }
