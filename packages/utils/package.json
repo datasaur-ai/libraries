@@ -7,11 +7,11 @@
     "email": "dev@datasaur.ai",
     "url": "https://datasaur.ai"
   },
-  "main": "lib/index.js",
   "scripts": {
     "test": "jest",
     "build": "tsc",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "prepack": "cp package.json lib/package.json"
   },
   "files": [
     "lib"
