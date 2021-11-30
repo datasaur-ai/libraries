@@ -1,0 +1,18 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "version": "independent",
+  "command": {
+    "ignoreChanges": [
+      "ignored-file",
+      "*.md"
+    ],
+    "publish": {
+      "allowBranch": [
+        "main"
+      ],
+      "verifyAccess": false
+    }
+  }
+}
