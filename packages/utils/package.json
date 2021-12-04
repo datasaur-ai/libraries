@@ -10,11 +10,11 @@
   "publishConfig": {
     "access": "public"
   },
+  "main": "lib/index.js",
   "scripts": {
     "test": "jest",
     "build": "tsc",
-    "prepare": "npm run build",
-    "prepack": "cp package.json lib/package.json"
+    "prepare": "npm run build"
   },
   "files": [
     "lib"
